@@ -61,7 +61,7 @@ public class Main {
 
         if (num1 < 1 || num1 > 10 || num2 < 1 || num2 > 10 || rNum1.number() < 1 || rNum1.number() > 10 || rNum2.number() < 1 || rNum2.number() > 10) {
             throw new IllegalArgumentException("Калькулятор принимает числа от 1 до 10");
-        }
+        } // добавил ограничение по количеству чисел в вв0д
 
 
 
